@@ -67,7 +67,7 @@ export default function (pi: ExtensionAPI) {
   for (const profile of profiles) registerProfile(pi, profile);
 
   pi.registerCommand("codex-profile", {
-    description: "Add or update a Codex profile: /codex-profile [name] [auth directory]",},{},{
+    description: "Add or update a Codex profile: /codex-profile [name] [auth directory]",
     handler: async (args, ctx) => {
       let name: string | undefined;
       let path: string | undefined;
