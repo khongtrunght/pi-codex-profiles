@@ -1,0 +1,15 @@
+{
+  "name": "pi-codex-profiles",
+  "version": "0.1.0",
+  "description": "Manage multiple ChatGPT Codex OAuth profiles in pi",
+  "keywords": ["pi-package", "pi", "codex", "openai", "profiles"],
+  "license": "MIT",
+  "type": "module",
+  "files": ["extensions", "scripts", "README.md", "LICENSE", "package.json"],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
